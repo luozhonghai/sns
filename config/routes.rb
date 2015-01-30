@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'show' => 'tests#show', as: :get
+
+  post 'update' => 'tests#update', as: :post
+
+  root 'tests#show'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
