@@ -5,6 +5,6 @@ class TestsController < ApplicationController
   end
   #post
   def update
-    render :json => {info: params[:info][:data], comment: params[:info][:comment]}
+    render :json => {info: 2, comment: "test2"}
   end
 end
