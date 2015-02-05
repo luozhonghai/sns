@@ -19,7 +19,7 @@ role :db,  [host]
 # used to set extended properties on the server.
 
 #server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
-server host, user: 'root', roles: %w{web app db}
+server host, user: 'root', port: 22, roles: %w{web app db}
 
 
 # Custom SSH Options

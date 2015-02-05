@@ -3,7 +3,7 @@ lock '3.3.5'
 
 set :application, 'ror'
 set :deploy_user, 'root'
-set :deploy_to, '/www/web/xh_ror'
+set :deploy_to, '/www/web/xh_sns'
 set :repo_url, 'https://github.com/luozhonghai/sns.git'
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call

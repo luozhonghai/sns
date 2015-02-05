@@ -12,6 +12,6 @@
 
 <%= link_to 'GetData', get_path %>
 <% info = Info.new(data: 1, comment: "test2") %>
-<%= link_to 'PostData', post_path(info: {data: info.data, comment: info.comment }), method: :post %>
+<%= button_to 'PostData', post_path(info: {data: info.data, comment: info.comment }), method: :post %>
 </body>
 </html>
