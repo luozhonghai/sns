@@ -1,6 +1,6 @@
 class TestsController < ApplicationController
   #get
-  def show
+  def showa
     @info = Info.new(data: 1, comment: "test")
   end
   #post
