@@ -1,7 +1,7 @@
 # Use at least one worker per core if you're on a dedicated server,
 # more will usually help for _short_ waits on databases/caches.
 worker_processes 4
-listen 3000
+listen 4000
 
 # # feel free to point this anywhere accessible on the filesystem
 pid "#{File.expand_path('.')}/tmp/pids/unicorn.pid"

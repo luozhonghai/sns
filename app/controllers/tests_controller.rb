@@ -1,7 +1,9 @@
 class TestsController < ApplicationController
   #get
-  def showa
+  def show
     @info = Info.new(data: 1, comment: "test")
+
+    $redis.publish 'rt-change', @info.to_json
   end
   #post
   def update
